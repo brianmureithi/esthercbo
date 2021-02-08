@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/esthercbo/static/css/main.c70e26cb.chunk.css",
-    "main.js": "/esthercbo/static/js/main.3b5038ba.chunk.js",
-    "main.js.map": "/esthercbo/static/js/main.3b5038ba.chunk.js.map",
+    "main.css": "/esthercbo/static/css/main.3cc615d7.chunk.css",
+    "main.js": "/esthercbo/static/js/main.4a0d00db.chunk.js",
+    "main.js.map": "/esthercbo/static/js/main.4a0d00db.chunk.js.map",
     "runtime-main.js": "/esthercbo/static/js/runtime-main.7519c1ab.js",
     "runtime-main.js.map": "/esthercbo/static/js/runtime-main.7519c1ab.js.map",
     "static/js/2.70b0ca1a.chunk.js": "/esthercbo/static/js/2.70b0ca1a.chunk.js",
     "static/js/2.70b0ca1a.chunk.js.map": "/esthercbo/static/js/2.70b0ca1a.chunk.js.map",
     "index.html": "/esthercbo/index.html",
-    "static/css/main.c70e26cb.chunk.css.map": "/esthercbo/static/css/main.c70e26cb.chunk.css.map",
+    "static/css/main.3cc615d7.chunk.css.map": "/esthercbo/static/css/main.3cc615d7.chunk.css.map",
     "static/js/2.70b0ca1a.chunk.js.LICENSE.txt": "/esthercbo/static/js/2.70b0ca1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7519c1ab.js",
     "static/js/2.70b0ca1a.chunk.js",
-    "static/css/main.c70e26cb.chunk.css",
-    "static/js/main.3b5038ba.chunk.js"
+    "static/css/main.3cc615d7.chunk.css",
+    "static/js/main.4a0d00db.chunk.js"
   ]
 }
