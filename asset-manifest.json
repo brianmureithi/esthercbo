@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/esthercbo/static/css/main.3cc615d7.chunk.css",
-    "main.js": "/esthercbo/static/js/main.4a0d00db.chunk.js",
-    "main.js.map": "/esthercbo/static/js/main.4a0d00db.chunk.js.map",
+    "main.css": "/esthercbo/static/css/main.ff2bb10c.chunk.css",
+    "main.js": "/esthercbo/static/js/main.7f25f0dc.chunk.js",
+    "main.js.map": "/esthercbo/static/js/main.7f25f0dc.chunk.js.map",
     "runtime-main.js": "/esthercbo/static/js/runtime-main.7519c1ab.js",
     "runtime-main.js.map": "/esthercbo/static/js/runtime-main.7519c1ab.js.map",
-    "static/js/2.70b0ca1a.chunk.js": "/esthercbo/static/js/2.70b0ca1a.chunk.js",
-    "static/js/2.70b0ca1a.chunk.js.map": "/esthercbo/static/js/2.70b0ca1a.chunk.js.map",
+    "static/js/2.ed0fd3a5.chunk.js": "/esthercbo/static/js/2.ed0fd3a5.chunk.js",
+    "static/js/2.ed0fd3a5.chunk.js.map": "/esthercbo/static/js/2.ed0fd3a5.chunk.js.map",
     "index.html": "/esthercbo/index.html",
-    "static/css/main.3cc615d7.chunk.css.map": "/esthercbo/static/css/main.3cc615d7.chunk.css.map",
-    "static/js/2.70b0ca1a.chunk.js.LICENSE.txt": "/esthercbo/static/js/2.70b0ca1a.chunk.js.LICENSE.txt"
+    "static/css/main.ff2bb10c.chunk.css.map": "/esthercbo/static/css/main.ff2bb10c.chunk.css.map",
+    "static/js/2.ed0fd3a5.chunk.js.LICENSE.txt": "/esthercbo/static/js/2.ed0fd3a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7519c1ab.js",
-    "static/js/2.70b0ca1a.chunk.js",
-    "static/css/main.3cc615d7.chunk.css",
-    "static/js/main.4a0d00db.chunk.js"
+    "static/js/2.ed0fd3a5.chunk.js",
+    "static/css/main.ff2bb10c.chunk.css",
+    "static/js/main.7f25f0dc.chunk.js"
   ]
 }
