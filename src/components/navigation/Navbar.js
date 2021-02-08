@@ -19,11 +19,11 @@ function Navbar() {
         } else {
             setButton(true);
         }
-    }
+    };
 
     useEffect(() => {
         showButton();
-    },[]);
+    }, [showButton]);
     window.addEventListener('resize', showButton);
 
 
@@ -32,7 +32,7 @@ function Navbar() {
         <>
         <nav className="navbar">
             <div className="navbar-container">
-            <Link to="/" className="navbar-logo">
+            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                 ECIP  <i class="fab fa-typo3"></i>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -55,12 +55,12 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                        Signup
+                    <Link to='/newsletter' className='nav-links-mobile' onClick={closeMobileMenu}>
+                       Newsletter
                     </Link>
                 </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
+            {button && <Button buttonStyle='btn--outline'> News letter</Button>}
             </div>
 
         </nav>
