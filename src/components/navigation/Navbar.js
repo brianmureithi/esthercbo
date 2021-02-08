@@ -1,11 +1,27 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
+import './Navbar.css';
+import '../Button.css';
+import { Button } from '../Button';
+
+
 
 
 function Navbar() {
     const [clicked, setClicked] =useState(false);
+    const [button,setButton] = useState(true);
     const handleClick = ()=>setClicked(!clicked) ;
     const closeMobileMenu = () => setClicked(false);
+
+    const showButton = () => {
+        if(window.width <= 960){
+            setButton(false)
+        } else {
+            setButton(true);
+        }
+    }
+
+    window.addEventListener('resize', showButton);
 
     
     return (
@@ -35,11 +51,12 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                         Signup
                     </Link>
                 </li>
             </ul>
+            {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
             </div>
 
         </nav>
